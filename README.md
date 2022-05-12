@@ -40,6 +40,30 @@ As a developer, you will be writing tests for every component. As we've learned,
 * [ ] Run and play around with the form interface.
 * [ ] Write out a list of possible testcases for this application within Understanding-questions.md.
 
+    Possible Test Cases
+
+    [first name input]
+    Expect first name label and input field to be visible. 
+    Expect first name error to be visible when user starts typing and does not reach 5 characters, or when user hits submit and the field has not been touched.
+
+    [last name input]
+    Expect last name label and input field to be visible. 
+    Expect last name error to be visible when user starts typing but leaves the field blank, or when user hits submit and the field has not been touched. 
+
+    [email name input]
+    Expect email name label and input field to be visible. 
+    Expect email name error to be visible when user starts typing and while valid email has not been typed or when field is left empty, or when user hits submit and the field has not been touched. 
+
+    [submit button]
+    Expect submit button to be visible.
+    Expect submit button to drive error messages when clicked and input requirements are not met.
+    Expect submit button, when all fields are correct, to not drive any error messages.
+    Act, click on submit when all fields are correct.
+    Expect submit confirmation element to be visible
+    Expect submit confirmation element to have text content with correct text, and to be visible.
+
+
+
 #### Complete a case that tests if
 
 * [ ] the component renders the contact form component without errors.
